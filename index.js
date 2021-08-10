@@ -10,7 +10,7 @@ import "./index.css";
  In this first example, the `document.querySelector()` syntax is included for you.
 */
 
-const ratings = document.querySelectorAll(".rating, .stat.value");
+const ratings = document.querySelectorAll(".value");
 for (let eachRating of ratings.values()) {
   console.log(eachRating);
 }
